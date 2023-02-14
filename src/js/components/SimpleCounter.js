@@ -12,7 +12,7 @@ const SimpleCounter = () => {
                         <h2 className=" text-primary my-4">{count}</h2>
                         <button className="btn btn-success mx-3 my-3" onClick={() => setCount(count + 1)}>+</button>
                         <button className="btn btn-danger mx-3" onClick={() => setCount(count - 1)} disabled={count === 0}>-</button>
-                        <button className="btn btn-warning mx-3 text-dark" onClick={() => setCount(0)} disabled={count === 0}>Resert</button>
+                        <button className="btn btn-warning mx-3 text-light" onClick={() => setCount(0)} disabled={count === 0}>Resert</button>
                     
                 </div>
             </div>
