@@ -7,7 +7,7 @@ const SimpleCounter = () => {
         <div className="container">
             <div className="card border border-secondary text-center my-5">
                 <div className="card-body">
-                    <h1 className="header my-2"><u>Simple Counter</u></h1>
+                    <h1 className="header my-2"><u>SIMPLE COUNTER</u></h1>
                     
                         <h2 className=" text-primary my-4">{count}</h2>
                         <button className="btn btn-success mx-3 my-3" onClick={() => setCount(count + 1)}>+</button>
